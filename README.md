@@ -1,5 +1,5 @@
 # golang-gin-boilerplate
-Golang [Artifact](https://github.com/shipu/artifact) Boilerplate for Rest Api. It's based on [Gin](https://github.com/gin-gonic/gin)
+Golang [Artifact](https://github.com/zerox64/artifact) Boilerplate for Rest Api. It's based on [Gin](https://github.com/gin-gonic/gin)
 
 create .env file if not exists in root directory:
 ```shell
@@ -14,7 +14,7 @@ go run ./art crud package_name crud_module_name
 
 Run 
 ```go 
-go run ./art crud github.com/shipu/golang-gin-boilerplate notice
+go run ./art crud github.com/zerox64/golang-gin-boilerplate notice
 ``` 
 to generate crud.
 
@@ -39,7 +39,7 @@ import (
     ...	
     ...
     ...
-    noticeRoute "github.com/shipu/golang-gin-boilerplate/src/notice/routes"
+    noticeRoute "github.com/zerox64/golang-gin-boilerplate/src/notice/routes"
 )
 
 ```
@@ -58,7 +58,7 @@ import (
     ...	
     ...
     ...
-    notice "github.com/shipu/golang-gin-boilerplate/src/notice/models"
+    notice "github.com/zerox64/golang-gin-boilerplate/src/notice/models"
 )
 
 ```
@@ -109,7 +109,7 @@ import (
     ...	
     ...
     ...
-    . "github.com/shipu/artifact"
+    . "github.com/zerox64/artifact"
 )
 
 ```
@@ -147,8 +147,8 @@ Suppose example route is `notice/routes/api.go`:
 package routes
 
 import (
-	. "github.com/shipu/artifact"
-	c "github.com/shipu/golang-gin-boilerplate/src/notice/controllers"
+	. "github.com/zerox64/artifact"
+	c "github.com/zerox64/golang-gin-boilerplate/src/notice/controllers"
 )
 
 func Setup() {
@@ -168,7 +168,7 @@ import (
     ...	
     ...
     ...
-    noticeRoute "github.com/shipu/golang-gin-boilerplate/src/notice/routes"
+    noticeRoute "github.com/zerox64/golang-gin-boilerplate/src/notice/routes"
 )
 
 ```
